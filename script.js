@@ -1,5 +1,4 @@
-
-      function convert() {
+function convert() {
         const file = document.getElementById("csv-file").files[0];
         if (file && file.type === "text/csv") {
           const reader = new FileReader();
@@ -36,4 +35,3 @@
         a.download = "converted-json.json";
         a.click();
       }
-   
